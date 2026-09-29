@@ -1,0 +1,126 @@
+@import "tailwindcss";
+
+:root {
+    --bg: color-mix(in oklab, var(--color-taupe-700) 10%, white);
+    --bg-subtle: oklch(from var(--bg) l c h / 0.8);
+    --bg-muted: oklch(from var(--bg) calc(l - 0.15) c h / 0.5);
+    --card-bg: oklch(from var(--bg) calc(l - 0.09) c h);
+    --text: var(--color-taupe-700);
+    --text-fg: oklch(from var(--color-taupe-700) calc(l + 0.25) c h);
+
+    --text-muted: oklch(from var(--card-bg) calc(l - 0.5) c h);
+    --text-subtle: oklch(from var(--card-bg) calc(l - 0.25) c h);
+
+    --text-hover-link: var(--color-taupe-500);
+    --text-hover-link-active: var(--color-taupe-800);
+    --text-h: var(--color-taupe-700);
+
+    --border: var(--color-taupe-400);
+    --code-bg: #f4f3ec;
+    --accent: var(--color-indigo-600);
+    --accent-bg: rgba(170, 59, 255, 0.1);
+    --accent-border: rgba(170, 59, 255, 0.5);
+    --social-bg: rgba(244, 243, 236, 0.5);
+    --shadow:
+        rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+
+    --sans: "Poppins", system-ui, "Segoe UI", Roboto, sans-serif;
+    --heading: system-ui, "Segoe UI", Roboto, sans-serif;
+    --mono: "victor mono", ui-monospace, Consolas, monospace;
+    font: 16px / 145% var(--sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-synthesis: none;
+    color: var(--text);
+    letter-spacing: 0.18px;
+    color-scheme: light dark;
+    background: var(--bg);
+    text-rendering: optimizeLegibility;
+
+    @media (max-width: 1024px) {
+        font-size: 16px;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: color-mix(in oklab, var(--color-taupe-700) 50%, black);
+        --bg-subtle: oklch(from var(--bg) l c h / 0.8);
+        --bg-muted: oklch(from var(--bg) calc(l + 0.07) c h / 0.5);
+        --border: oklch(from var(--bg) calc(l + 0.2) c h);
+        --card-bg: oklch(from var(--border) calc(l - 0.17) c h);
+        --text: oklch(from var(--card-bg) calc(l + 0.7) c h);
+        --text-muted: oklch(from var(--card-bg) calc(l + 0.5) c h);
+        --text-subtle: oklch(from var(--card-bg) calc(l + 0.37) c h);
+        --text-h: var(--color-taupe-500);
+        --code-bg: #1f2028;
+        --accent: oklch(72.168% 0.17679 305.493);
+        --accent-bg: rgba(192, 132, 252, 0.15);
+        --accent-border: rgba(192, 132, 252, 0.5);
+        --social-bg: rgba(47, 48, 58, 0.5);
+        --shadow:
+            rgba(0, 0, 0, 0.4) 0 10px 15px -3px,
+            rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
+    }
+}
+
+@utility flow {
+    > * + * {
+        margin-top: var(--flow-space);
+    }
+}
+
+@layer base {
+    html {
+        scrollbar-width: none;
+        scroll-behavior: smooth;
+    }
+
+    body {
+        min-height: 100vh;
+    }
+
+    :where(svg) {
+        /* width: 100%; */
+        /* height: 100%; */
+        aspect-ratio: 1;
+    }
+
+    h1,
+    h2 {
+        font-family: var(--heading);
+        font-weight: 500;
+        color: var(--text-h);
+    }
+
+    h1 {
+        font-size: 56px;
+        line-height: 1.1;
+        letter-spacing: -1.68px;
+        @media (max-width: 1024px) {
+            font-size: 36px;
+        }
+    }
+    h2 {
+        margin: 0 0 8px;
+        font-size: 24px;
+        line-height: 118%;
+        letter-spacing: -0.24px;
+        @media (max-width: 1024px) {
+            font-size: 20px;
+        }
+    }
+
+    h1,
+    h2,
+    h3 {
+        text-wrap: wrap balance;
+    }
+
+    :focus-visible {
+        /* outline: 1px solid var(--accent);
+		 */
+        outline: none;
+        @apply rounded-sm ring-2 ring-(--accent) ring-offset-0 ring-offset-transparent;
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "dependencies": {
+        "@tailwindcss/vite": "^4.3.3",
+        "axios": "^1.20.0",
+        "json-server": "^1.0.0-beta.15",
+        "lucide-react": "^1.48.0",
+        "react": "^19.2.8",
+        "react-dom": "^19.2.8",
+        "tailwindcss": "^4.3.3"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.29.7",
+        "@biomejs/biome": "^2.5.14",
+        "@rolldown/plugin-babel": "^0.2.3",
+        "@types/babel__core": "^7.20.5",
+        "@types/node": "^24.13.3",
+        "@types/react": "^19.2.18",
+        "@types/react-dom": "^19.2.7",
+        "@vitejs/plugin-react": "^6.1.1",
+        "babel-plugin-react-compiler": "^1.0.0",
+        "oxlint": "^1.81.0",
+        "prettier": "^3.9.9",
+        "prettier-plugin-tailwindcss": "^0.8.1",
+        "typescript": "~6.0.2",
+        "vite": "^8.3.0",
+        "vite-plugin-svgr": "^5.2.0"
+    },
+    "name": "road-to-next-ts",
+    "private": true,
+    "scripts": {
+        "biome:lint": "npx @biomejs/biome check ./src",
+        "build": "tsc -b && vite build",
+        "dev": "vite",
+        "format:css": "npx prettier --write \"src/**/*.css\"",
+        "lint": "oxlint",
+        "lint:fix": "npx @biomejs/biome check --write ./src",
+        "mock:build": "node mock-api/reshape.js",
+        "mock:fetch": "curl \"https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=20\" -o mock-api/hacker-news-data.json",
+        "mock:serve": "json-server mock-api/db.json --port 3001",
+        "preview": "vite preview"
+    },
+    "type": "module",
+    "version": "0.0.0"
+}

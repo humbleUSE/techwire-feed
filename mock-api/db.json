@@ -1,0 +1,860 @@
+{
+    "exhaustive": {
+        "nbHits": true,
+        "typo": true
+    },
+    "exhaustiveNbHits": true,
+    "exhaustiveTypo": true,
+    "hits": [
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "Qision"
+                },
+                "title": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "PipePipe: NewPipe hard fork implementing SponsorBlock"
+                },
+                "url": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "https://github.com/InfinityLoop1308/PipePipe"
+                }
+            },
+            "_tags": ["story", "author_Qision", "story_49842764", "front_page"],
+            "author": "Qision",
+            "children": [
+                49857518, 49857616, 49857683, 49857828, 49857919, 49857966,
+                49858110, 49858146, 49858181, 49858332, 49858368, 49858422,
+                49858429, 49858877, 49859018, 49859082, 49860023, 49860287,
+                49860378, 49860484, 49860495, 49860501, 49860680, 49860735,
+                49860924, 49861084, 49861535, 49862928, 49862993, 49863228,
+                49863243, 49863476, 49863559, 49863869, 49864088, 49864558
+            ],
+            "created_at": "2026-09-25T10:55:40Z",
+            "created_at_i": 1790333740,
+            "id": "49842764",
+            "num_comments": 235,
+            "objectID": "49842764",
+            "points": 434,
+            "story_id": 49842764,
+            "title": "PipePipe: NewPipe hard fork implementing SponsorBlock",
+            "updated_at": "2026-09-27T12:08:31Z",
+            "url": "https://github.com/InfinityLoop1308/PipePipe"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "ksec"
+                },
+                "title": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "Fifteen years later, the Apple Cards origin story"
+                },
+                "url": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "https://lexontech.org/fifteen-years-later-the-apple-cards-origin-story"
+                }
+            },
+            "_tags": ["story", "author_ksec", "story_49854693", "front_page"],
+            "author": "ksec",
+            "children": [
+                49855253, 49855293, 49855333, 49855602, 49855777, 49855883,
+                49855949, 49856217, 49856296, 49857344, 49857644, 49858301,
+                49858970, 49859457, 49860515, 49861759, 49864647
+            ],
+            "created_at": "2026-09-26T09:13:41Z",
+            "created_at_i": 1790414021,
+            "id": "49854693",
+            "num_comments": 103,
+            "objectID": "49854693",
+            "points": 405,
+            "story_id": 49854693,
+            "title": "Fifteen years later, the Apple Cards origin story",
+            "updated_at": "2026-09-27T12:03:47Z",
+            "url": "https://lexontech.org/fifteen-years-later-the-apple-cards-origin-story"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "silveraxe93"
+                },
+                "title": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "Does Georgism work? Five years later"
+                },
+                "url": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "https://www.astralcodexten.com/p/does-georgism-work-five-years-later"
+                }
+            },
+            "_tags": [
+                "story",
+                "author_silveraxe93",
+                "story_49844657",
+                "front_page"
+            ],
+            "author": "silveraxe93",
+            "children": [
+                49861779, 49861840, 49861855, 49862039, 49862090, 49862099,
+                49862107, 49862133, 49862172, 49862308, 49862352, 49862433,
+                49862473, 49862512, 49862865, 49862932, 49863005, 49863044,
+                49863160, 49863261, 49863330, 49863365, 49864027, 49864067,
+                49864175, 49864207, 49864267, 49864302, 49864305, 49864322,
+                49864529, 49864533, 49864686, 49864818, 49864848, 49864899,
+                49864952, 49865180, 49865635, 49865752
+            ],
+            "created_at": "2026-09-25T13:48:38Z",
+            "created_at_i": 1790344118,
+            "id": "49844657",
+            "num_comments": 272,
+            "objectID": "49844657",
+            "points": 373,
+            "story_id": 49844657,
+            "title": "Does Georgism work? Five years later",
+            "updated_at": "2026-09-27T12:08:31Z",
+            "url": "https://www.astralcodexten.com/p/does-georgism-work-five-years-later"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "jpwalsh234"
+                },
+                "story_text": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "I love making diagrams to help understand, plan, etc. However, the options are (A) auto-placement languages like Mermaid or Graphviz (which don't let me decide how the diagram looks), or (B) software like Draw.io which are powerful but are very time consuming (and inefficient for agents to manipulate).<p>I wanted to have the benefits of both, where you can define a diagram in a diagram language, but also retain a high degree of control over what the diagram looks like.<p>I also wanted this to work well for humans and agents.<p>On the Github link, there's a playground where you can try it out without installation. There's also instructions for a simple npm install and for installing a skill you can use with Claude or other agents."
+                },
+                "title": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "Show HN: Reladraw – A diagram language where you decide where to place things"
+                },
+                "url": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "https://github.com/reladraw/reladraw"
+                }
+            },
+            "_tags": [
+                "story",
+                "author_jpwalsh234",
+                "story_49858513",
+                "show_hn",
+                "front_page"
+            ],
+            "author": "jpwalsh234",
+            "children": [
+                49859626, 49859743, 49859748, 49859785, 49859983, 49860209,
+                49860294, 49860480, 49860528, 49860544, 49860550, 49860625,
+                49860832, 49861151, 49861199, 49861683, 49861781, 49862146,
+                49862178, 49862591, 49862995, 49863069, 49863247, 49863408,
+                49863453, 49863454, 49863699, 49863750, 49863902, 49864075,
+                49864296, 49864519, 49864932, 49865272, 49865544, 49865601,
+                49865711
+            ],
+            "created_at": "2026-09-26T17:10:40Z",
+            "created_at_i": 1790442640,
+            "id": "49858513",
+            "num_comments": 88,
+            "objectID": "49858513",
+            "points": 325,
+            "story_id": 49858513,
+            "story_text": "I love making diagrams to help understand, plan, etc. However, the options are (A) auto-placement languages like Mermaid or Graphviz (which don&#x27;t let me decide how the diagram looks), or (B) software like Draw.io which are powerful but are very time consuming (and inefficient for agents to manipulate).<p>I wanted to have the benefits of both, where you can define a diagram in a diagram language, but also retain a high degree of control over what the diagram looks like.<p>I also wanted this to work well for humans and agents.<p>On the Github link, there&#x27;s a playground where you can try it out without installation. There&#x27;s also instructions for a simple npm install and for installing a skill you can use with Claude or other agents.",
+            "title": "Show HN: Reladraw – A diagram language where you decide where to place things",
+            "updated_at": "2026-09-27T12:05:46Z",
+            "url": "https://github.com/reladraw/reladraw"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "MC995"
+                },
+                "title": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "ASML says it sold 'absolutely nothing' in Europe in 2026"
+                },
+                "url": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "https://www.tomshardware.com/tech-industry/semiconductors/asml-says-its-sells-absolutely-nothing-in-europe-calls-on-eu-to-help-create-demand"
+                }
+            },
+            "_tags": ["story", "author_MC995", "story_49844663", "front_page"],
+            "author": "MC995",
+            "children": [
+                49805038, 49806825, 49808882, 49823942, 49825674, 49844758,
+                49844796, 49844830, 49844910, 49844946, 49844970, 49845038,
+                49845053, 49845075, 49845093, 49845151, 49845195, 49845451,
+                49845547, 49845789, 49846711, 49847211, 49855953, 49856014,
+                49856018, 49856097, 49856264, 49856295, 49856320, 49856478,
+                49856553, 49856766, 49856849, 49856923, 49856970, 49857015,
+                49857054, 49857102, 49860477, 49860986, 49861112, 49861656,
+                49861699, 49862622, 49862658, 49862971, 49863084, 49863185,
+                49863208, 49863211, 49863279, 49863719, 49863803, 49863837,
+                49864403, 49864561, 49865464
+            ],
+            "created_at": "2026-09-25T13:49:06Z",
+            "created_at_i": 1790344146,
+            "id": "49844663",
+            "num_comments": 683,
+            "objectID": "49844663",
+            "points": 305,
+            "story_id": 49844663,
+            "title": "ASML says it sold 'absolutely nothing' in Europe in 2026",
+            "updated_at": "2026-09-27T12:09:01Z",
+            "url": "https://www.tomshardware.com/tech-industry/semiconductors/asml-says-its-sells-absolutely-nothing-in-europe-calls-on-eu-to-help-create-demand"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "papergirl"
+                },
+                "title": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "OpenAI Feared \"Optics\" of what might appear on Hacker News"
+                },
+                "url": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/"
+                }
+            },
+            "_tags": [
+                "story",
+                "author_papergirl",
+                "story_49863864",
+                "front_page"
+            ],
+            "author": "papergirl",
+            "children": [
+                49863929, 49864536, 49864549, 49864573, 49864589, 49864600,
+                49864603, 49864655, 49864668, 49864740, 49864781, 49864803,
+                49864839, 49864846, 49864860, 49864863, 49864903, 49865031,
+                49865163, 49865204, 49865349, 49865496, 49865735, 49865766,
+                49865899
+            ],
+            "created_at": "2026-09-27T06:19:33Z",
+            "created_at_i": 1790489973,
+            "id": "49863864",
+            "num_comments": 250,
+            "objectID": "49863864",
+            "points": 290,
+            "story_id": 49863864,
+            "title": "OpenAI Feared \"Optics\" of what might appear on Hacker News",
+            "updated_at": "2026-09-27T12:09:01Z",
+            "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "shenli3514"
+                },
+                "title": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "DeepSeek Elastic Compute (DSec)"
+                },
+                "url": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "https://arxiv.org/abs/2609.22978"
+                }
+            },
+            "_tags": [
+                "story",
+                "author_shenli3514",
+                "story_49859112",
+                "front_page"
+            ],
+            "author": "shenli3514",
+            "children": [
+                49860154, 49860324, 49860554, 49861060, 49861104, 49861294,
+                49861598, 49861611, 49862017, 49862733, 49863102, 49863167,
+                49863604, 49863709, 49863755, 49865841
+            ],
+            "created_at": "2026-09-26T18:22:41Z",
+            "created_at_i": 1790446961,
+            "id": "49859112",
+            "num_comments": 86,
+            "objectID": "49859112",
+            "points": 263,
+            "story_id": 49859112,
+            "title": "DeepSeek Elastic Compute (DSec)",
+            "updated_at": "2026-09-27T12:08:31Z",
+            "url": "https://arxiv.org/abs/2609.22978"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "signa11"
+                },
+                "title": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "How to keep enjoying programming in a world of LLMs"
+                },
+                "url": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705"
+                }
+            },
+            "_tags": [
+                "story",
+                "author_signa11",
+                "story_49854875",
+                "front_page"
+            ],
+            "author": "signa11",
+            "children": [
+                49854924, 49854959, 49854988, 49854999, 49855020, 49855030,
+                49855031, 49855036, 49855053, 49855054, 49855070, 49855081,
+                49855083, 49855101, 49855117, 49855128, 49855129, 49855133,
+                49855147, 49855150, 49855174, 49855192, 49855199, 49855241,
+                49855262, 49855328, 49855583, 49855647, 49856238, 49857136,
+                49857394, 49858054, 49859670, 49859774, 49859846, 49860271,
+                49860375, 49860462, 49860557, 49860681, 49860783, 49860822,
+                49861295, 49861502, 49861876, 49862041, 49862315, 49863128,
+                49863219, 49863245, 49863494, 49863782, 49863785, 49864068,
+                49864195, 49864318, 49865426
+            ],
+            "created_at": "2026-09-26T09:41:58Z",
+            "created_at_i": 1790415718,
+            "id": "49854875",
+            "num_comments": 280,
+            "objectID": "49854875",
+            "points": 248,
+            "story_id": 49854875,
+            "title": "How to keep enjoying programming in a world of LLMs",
+            "updated_at": "2026-09-27T12:08:01Z",
+            "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "chmaynard"
+                },
+                "title": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "Go Concurrency Distilled"
+                },
+                "url": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "https://antonz.org/go-concurrency-distilled/"
+                }
+            },
+            "_tags": [
+                "story",
+                "author_chmaynard",
+                "story_49856988",
+                "front_page"
+            ],
+            "author": "chmaynard",
+            "children": [
+                49862080, 49862677, 49862836, 49862908, 49863303, 49863393,
+                49863668, 49864443, 49864467, 49864704, 49865837
+            ],
+            "created_at": "2026-09-26T14:34:49Z",
+            "created_at_i": 1790433289,
+            "id": "49856988",
+            "num_comments": 96,
+            "objectID": "49856988",
+            "points": 242,
+            "story_id": 49856988,
+            "title": "Go Concurrency Distilled",
+            "updated_at": "2026-09-27T12:08:31Z",
+            "url": "https://antonz.org/go-concurrency-distilled/"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "rbanffy"
+                },
+                "title": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "Meta Blocks President Lula's Facebook Page, Campaign Ads 2 Weeks from Election"
+                },
+                "url": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "https://www.reddit.com/r/worldnews/comments/1wr3id3/meta_blocks_president_lulas_facebook_page_and/"
+                }
+            },
+            "_tags": [
+                "story",
+                "author_rbanffy",
+                "story_49864642",
+                "front_page"
+            ],
+            "author": "rbanffy",
+            "children": [
+                49864665, 49864751, 49864775, 49864785, 49864786, 49864871,
+                49864890, 49864891, 49864892, 49864974, 49865068, 49865142,
+                49865221, 49865227, 49865237, 49865247, 49865258, 49865285,
+                49865292, 49865299, 49865307, 49865379, 49865392, 49865402,
+                49865481, 49865548, 49865595, 49865705, 49865926
+            ],
+            "created_at": "2026-09-27T08:44:04Z",
+            "created_at_i": 1790498644,
+            "id": "49864642",
+            "num_comments": 145,
+            "objectID": "49864642",
+            "points": 225,
+            "story_id": 49864642,
+            "title": "Meta Blocks President Lula's Facebook Page, Campaign Ads 2 Weeks from Election",
+            "updated_at": "2026-09-27T12:09:01Z",
+            "url": "https://www.reddit.com/r/worldnews/comments/1wr3id3/meta_blocks_president_lulas_facebook_page_and/"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "azhenley"
+                },
+                "title": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "How I changed teaching after AI managed to do all my homework assignments"
+                },
+                "url": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "https://thelastsoftwareengineer.substack.com/p/how-i-changed-teaching-after-ai-managed"
+                }
+            },
+            "_tags": [
+                "story",
+                "author_azhenley",
+                "story_49836579",
+                "front_page"
+            ],
+            "author": "azhenley",
+            "children": [
+                49853557, 49853946, 49853947, 49853974, 49854014, 49854017,
+                49854037, 49854079, 49854245, 49854259, 49854315, 49854419,
+                49854469, 49854594, 49854671, 49854761, 49854763, 49854861,
+                49854883, 49854908, 49855170, 49855455, 49858615, 49861363,
+                49861482, 49861541, 49861831, 49861945, 49862429, 49862618,
+                49862771, 49862930, 49862964, 49863031, 49863064, 49863592,
+                49863633, 49863875, 49864086, 49864502, 49864550, 49865213,
+                49865296, 49865341, 49865923, 49865949
+            ],
+            "created_at": "2026-09-24T20:51:50Z",
+            "created_at_i": 1790283110,
+            "id": "49836579",
+            "num_comments": 203,
+            "objectID": "49836579",
+            "points": 224,
+            "story_id": 49836579,
+            "title": "How I changed teaching after AI managed to do all my homework assignments",
+            "updated_at": "2026-09-27T12:07:31Z",
+            "url": "https://thelastsoftwareengineer.substack.com/p/how-i-changed-teaching-after-ai-managed"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "kspacewalk2"
+                },
+                "title": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "What is the size of Yemen? (2024)"
+                },
+                "url": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "https://theborys.substack.com/p/what-is-the-size-of-yemen"
+                }
+            },
+            "_tags": [
+                "story",
+                "author_kspacewalk2",
+                "story_49862809",
+                "front_page"
+            ],
+            "author": "kspacewalk2",
+            "children": [
+                49863050, 49863071, 49863197, 49863224, 49863315, 49863317,
+                49863356, 49863357, 49863505, 49863734, 49863989, 49863992,
+                49864087, 49864394, 49864417, 49865005, 49865021, 49865192,
+                49865739, 49865745
+            ],
+            "created_at": "2026-09-27T02:40:26Z",
+            "created_at_i": 1790476826,
+            "id": "49862809",
+            "num_comments": 64,
+            "objectID": "49862809",
+            "points": 186,
+            "story_id": 49862809,
+            "title": "What is the size of Yemen? (2024)",
+            "updated_at": "2026-09-27T12:08:01Z",
+            "url": "https://theborys.substack.com/p/what-is-the-size-of-yemen"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "momentmaker"
+                },
+                "title": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "A searchable library of forgotten public-domain film clips from 1915 onward"
+                },
+                "url": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "https://www.movingimagearchive.com/"
+                }
+            },
+            "_tags": [
+                "story",
+                "author_momentmaker",
+                "story_49832768",
+                "front_page"
+            ],
+            "author": "momentmaker",
+            "children": [
+                49833549, 49859284, 49859295, 49859403, 49859773, 49859789,
+                49860132, 49860754, 49862348, 49862762, 49863039, 49864507
+            ],
+            "created_at": "2026-09-24T16:11:42Z",
+            "created_at_i": 1790266302,
+            "id": "49832768",
+            "num_comments": 26,
+            "objectID": "49832768",
+            "points": 180,
+            "story_id": 49832768,
+            "title": "A searchable library of forgotten public-domain film clips from 1915 onward",
+            "updated_at": "2026-09-27T12:04:47Z",
+            "url": "https://www.movingimagearchive.com/"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "parasitid"
+                },
+                "title": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "Drawgent: Coding agent on a live Excalidraw canvas"
+                },
+                "url": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "https://tangled.org/yanndegat.tngl.sh/drawgent"
+                }
+            },
+            "_tags": [
+                "story",
+                "author_parasitid",
+                "story_49857729",
+                "front_page"
+            ],
+            "author": "parasitid",
+            "children": [
+                49857730, 49858591, 49858816, 49858820, 49858852, 49858937,
+                49858987, 49859079, 49859459, 49860194, 49860195, 49860235,
+                49861034, 49862678, 49863131, 49863250, 49863410, 49863541,
+                49864093, 49864404, 49865181
+            ],
+            "created_at": "2026-09-26T15:56:34Z",
+            "created_at_i": 1790438194,
+            "id": "49857729",
+            "num_comments": 42,
+            "objectID": "49857729",
+            "points": 158,
+            "story_id": 49857729,
+            "title": "Drawgent: Coding agent on a live Excalidraw canvas",
+            "updated_at": "2026-09-27T12:04:18Z",
+            "url": "https://tangled.org/yanndegat.tngl.sh/drawgent"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "blutack"
+                },
+                "title": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "Flip Fluid on Flip Dots"
+                },
+                "url": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "https://mitxela.com/projects/flipflip"
+                }
+            },
+            "_tags": [
+                "story",
+                "author_blutack",
+                "story_49854219",
+                "front_page"
+            ],
+            "author": "blutack",
+            "children": [
+                49864059, 49864107, 49864339, 49864372, 49864572, 49865515,
+                49865891
+            ],
+            "created_at": "2026-09-26T07:50:24Z",
+            "created_at_i": 1790409024,
+            "id": "49854219",
+            "num_comments": 12,
+            "objectID": "49854219",
+            "points": 129,
+            "story_id": 49854219,
+            "title": "Flip Fluid on Flip Dots",
+            "updated_at": "2026-09-27T12:09:01Z",
+            "url": "https://mitxela.com/projects/flipflip"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "apsec112"
+                },
+                "title": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "An agent used DNS to reach an external chatbot"
+                },
+                "url": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/"
+                }
+            },
+            "_tags": [
+                "story",
+                "author_apsec112",
+                "story_49853137",
+                "front_page"
+            ],
+            "author": "apsec112",
+            "children": [
+                49853144, 49853499, 49858562, 49859046, 49861661, 49861684,
+                49861711, 49861745, 49861886, 49861908, 49862185, 49862225,
+                49862237, 49862281, 49862856, 49863824, 49864035, 49864184,
+                49864241, 49864307, 49864315, 49864477, 49864844, 49865417,
+                49865839, 49865893, 49865902
+            ],
+            "created_at": "2026-09-26T04:14:11Z",
+            "created_at_i": 1790396051,
+            "id": "49853137",
+            "num_comments": 114,
+            "objectID": "49853137",
+            "points": 112,
+            "story_id": 49853137,
+            "title": "An agent used DNS to reach an external chatbot",
+            "updated_at": "2026-09-27T12:08:31Z",
+            "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "pjm331"
+                },
+                "title": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "Evolving programming languages in the AI era"
+                },
+                "url": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "https://dashbit.co/blog/evolving-ai-era"
+                }
+            },
+            "_tags": ["story", "author_pjm331", "story_49839567", "front_page"],
+            "author": "pjm331",
+            "children": [
+                49855233, 49861995, 49862113, 49862557, 49862577, 49862626,
+                49862661, 49862875, 49862885, 49862897, 49862958, 49863337,
+                49863739, 49863825, 49863968, 49865669, 49865793
+            ],
+            "created_at": "2026-09-25T02:34:39Z",
+            "created_at_i": 1790303679,
+            "id": "49839567",
+            "num_comments": 66,
+            "objectID": "49839567",
+            "points": 108,
+            "story_id": 49839567,
+            "title": "Evolving programming languages in the AI era",
+            "updated_at": "2026-09-27T12:08:01Z",
+            "url": "https://dashbit.co/blog/evolving-ai-era"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "flxflx"
+                },
+                "story_text": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "We found an approach to get Jev-like properties from standard LLMs like GLM-5.3-Flash.<p>The core idea is to craft the input prompt so that the first output token answers the question. This makes it possible to get a decision with a single forward pass.<p>In the blog post, we describe the approach in detail for GLM-5.3-Flash and vLLM. We benchmark this setup against Jev and Laya. We find that our setup is on-par with Jev in terms of accuracy and speed and that it substantially outperforms Laya.<p>Still, in terms of costs per decision, Jev is several x better than our setup. In turn, our setup supports vision inputs."
+                },
+                "title": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "Turning GLM-5.3-Flash into a Jev-like decision model"
+                },
+                "url": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "https://www.privatemode.ai/blog/system-one-from-glm-flash"
+                }
+            },
+            "_tags": ["story", "author_flxflx", "story_49857656", "front_page"],
+            "author": "flxflx",
+            "children": [
+                49857657, 49857986, 49862056, 49862229, 49862454, 49862639,
+                49862653, 49862676, 49862973, 49863427, 49863924, 49864408
+            ],
+            "created_at": "2026-09-26T15:49:04Z",
+            "created_at_i": 1790437744,
+            "id": "49857656",
+            "num_comments": 42,
+            "objectID": "49857656",
+            "points": 102,
+            "story_id": 49857656,
+            "story_text": "We found an approach to get Jev-like properties from standard LLMs like GLM-5.3-Flash.<p>The core idea is to craft the input prompt so that the first output token answers the question. This makes it possible to get a decision with a single forward pass.<p>In the blog post, we describe the approach in detail for GLM-5.3-Flash and vLLM. We benchmark this setup against Jev and Laya. We find that our setup is on-par with Jev in terms of accuracy and speed and that it substantially outperforms Laya.<p>Still, in terms of costs per decision, Jev is several x better than our setup. In turn, our setup supports vision inputs.",
+            "title": "Turning GLM-5.3-Flash into a Jev-like decision model",
+            "updated_at": "2026-09-27T12:08:01Z",
+            "url": "https://www.privatemode.ai/blog/system-one-from-glm-flash"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "pwg"
+                },
+                "title": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "Reverse-engineering the Intel 8087's tangent algorithm: more than CORDIC"
+                },
+                "url": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "https://www.righto.com/2026/09/8087-tangent-cordic.html"
+                }
+            },
+            "_tags": ["story", "author_pwg", "story_49858676", "front_page"],
+            "author": "pwg",
+            "children": [
+                49858825, 49861002, 49862383, 49862492, 49863089, 49863569,
+                49864118, 49864804
+            ],
+            "created_at": "2026-09-26T17:26:54Z",
+            "created_at_i": 1790443614,
+            "id": "49858676",
+            "num_comments": 11,
+            "objectID": "49858676",
+            "points": 84,
+            "story_id": 49858676,
+            "title": "Reverse-engineering the Intel 8087's tangent algorithm: more than CORDIC",
+            "updated_at": "2026-09-27T11:51:32Z",
+            "url": "https://www.righto.com/2026/09/8087-tangent-cordic.html"
+        },
+        {
+            "_highlightResult": {
+                "author": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "pseudolus"
+                },
+                "title": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "Biology might not be quantum, but its math is quantumlike"
+                },
+                "url": {
+                    "matchedWords": [],
+                    "matchLevel": "none",
+                    "value": "https://www.quantamagazine.org/biology-might-not-be-quantum-but-its-math-is-quantumlike-20260923/"
+                }
+            },
+            "_tags": [
+                "story",
+                "author_pseudolus",
+                "story_49839438",
+                "front_page"
+            ],
+            "author": "pseudolus",
+            "children": [
+                49839549, 49845098, 49862376, 49862612, 49862722, 49863175,
+                49863308, 49863804, 49864119, 49864360, 49864447
+            ],
+            "created_at": "2026-09-25T02:11:07Z",
+            "created_at_i": 1790302267,
+            "id": "49839438",
+            "num_comments": 26,
+            "objectID": "49839438",
+            "points": 79,
+            "story_id": 49839438,
+            "title": "Biology might not be quantum, but its math is quantumlike",
+            "updated_at": "2026-09-27T12:07:02Z",
+            "url": "https://www.quantamagazine.org/biology-might-not-be-quantum-but-its-math-is-quantumlike-20260923/"
+        }
+    ],
+    "hitsPerPage": 20,
+    "nbHits": 30,
+    "nbPages": 2,
+    "page": 0,
+    "params": "tags=front_page&hitsPerPage=20&advancedSyntax=true&analyticsTags=backend",
+    "processingTimeMS": 1,
+    "processingTimingsMS": {
+        "_request": {
+            "queue": 481,
+            "roundTrip": 22
+        },
+        "total": 1
+    },
+    "query": "",
+    "serverTimeMS": 483
+}

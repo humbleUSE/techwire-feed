@@ -1,0 +1,70 @@
+@reference "/src/index.css";
+
+@keyframes draw {
+    to {
+        stroke-dashoffset: 0%;
+    }
+}
+
+@keyframes moveAlongPath {
+    from {
+        offset-distance: 0%;
+    }
+    to {
+        offset-distance: 100%;
+    }
+}
+
+@keyframes reveal {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes pulse-glow {
+    0%,
+    100% {
+        stroke-width: 1;
+        filter: drop-shadow(0 0 1px white);
+    }
+    50% {
+        stroke-width: 1;
+        filter: drop-shadow(0 0 1px white);
+    }
+}
+.dot {
+    animation: moveAlongPath 5s infinite ease-in-out;
+    offset-path: path("M20,50 C20,-50 180,150 180,50 C180-50 20,150 20,50 z");
+    offset-distance: 0%;
+    offset-rotate: auto;
+}
+
+.list {
+    display: grid;
+    grid-template-rows: repeat(4, max-content);
+    grid-template-columns: repeat(
+        auto-fill,
+        minmax(var(--min-grid-size, 250px), var(--max-grid-size, 300px))
+    );
+
+    gap: 1.5rem;
+    place-content: center;
+}
+
+.arrow {
+    stroke: white;
+    animation: pulse-glow 1.5s ease-in-out infinite;
+}
+
+#server-top,
+#server-bottom {
+    stroke-dasharray: 40.568145751953125;
+    stroke-dashoffset: 40.568145751953125;
+}
+
+.meta svg {
+    width: 1.5ex;
+    aspect-ratio: 1;
+}
