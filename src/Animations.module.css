@@ -41,17 +41,7 @@
     offset-rotate: auto;
 }
 
-.list {
-    display: grid;
-    grid-template-rows: repeat(4, max-content);
-    grid-template-columns: repeat(
-        auto-fill,
-        minmax(var(--min-grid-size, 250px), var(--max-grid-size, 300px))
-    );
 
-    gap: 1.5rem;
-    place-content: center;
-}
 
 .arrow {
     stroke: white;
@@ -64,7 +54,4 @@
     stroke-dashoffset: 40.568145751953125;
 }
 
-.meta svg {
-    width: 1.5ex;
-    aspect-ratio: 1;
-}
+

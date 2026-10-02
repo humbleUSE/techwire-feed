@@ -1,0 +1,6 @@
+@reference './index.css';
+
+  .sortIcon{
+   @apply  shrink-0 absolute right-2 top-1/2 -translate-y-1/2 pointer-events-none;
+}
+
