@@ -15,8 +15,8 @@ import type { ListSortKey } from "./components/list";
 import List from "./components/list";
 import LoadingPage from "./components/loadingPage";
 import { Main } from "./components/main-section";
-import { storiesReducer } from "./utilities/storiesReducer";
 import type { Story } from "./types/Story";
+import { storiesReducer } from "./utilities/storiesReducer";
 
 const UNIQUE_LOCAL_STORAGE_KEY = (function* getUniqueLocalStorageKey() {
 	yield "global-search";
@@ -68,12 +68,12 @@ export default function App() {
 			dispatchStories({ type: "STORIES_FETCH_INIT" });
 
 			try {
-				// const urlResult = await axios.get(url);
-				const mockServerResult = await axios.get(mockURL);
+				const urlResult = await axios.get(url);
+				// const mockServerResult = await axios.get(mockURL);
 				// data fetched success
 				dispatchStories({
-					// payload: urlResult.data.hits,
-					payload: mockServerResult.data,
+					payload: urlResult.data.hits,
+					// payload: mockServerResult.data,
 					type: `STORIES_FETCH_SUCCESS`,
 				});
 
@@ -85,7 +85,7 @@ export default function App() {
 					console.log(`Fetch failed ${err.message}`);
 			}
 		})();
-	}, [mockURL, url]);
+	}, [url]);
 
 	//* useEffect to fetch stories asynchronously form hacker news server
 	useEffect(() => {
