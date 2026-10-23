@@ -54,7 +54,7 @@ export default function App() {
 	);
 
 	const [url, setUrl] = useState(`${API_ENDPOINT}${searchTerm}`);
-	const [mockURL, setMockURL] = useState(`${HK_MOCK_SERVER}${searchTerm}`);
+	// const [mockURL, setMockURL] = useState(`${HK_MOCK_SERVER}${searchTerm}`);
 	const [stories, dispatchStories] = useReducer(storiesReducer, {
 		//* initial state
 		data: [],
