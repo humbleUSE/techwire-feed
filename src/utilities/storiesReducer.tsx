@@ -1,5 +1,5 @@
-import type { StoriesAction } from "../app";
-import type { StoriesState } from "../types/StoriesState.";
+import type { StoriesAction } from "../App";
+import type { StoriesState } from "../types/StoriesState";
 
 //* Stories Reducer function
 export function storiesReducer(state: StoriesState, action: StoriesAction) {

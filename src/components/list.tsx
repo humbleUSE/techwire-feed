@@ -1,4 +1,4 @@
-import { orderBy, sortBy } from "es-toolkit";
+import { orderBy } from "es-toolkit";
 import {
 	LucideChartNoAxesColumn,
 	LucideMessageCircle,
@@ -6,8 +6,8 @@ import {
 	Users2Icon,
 } from "lucide-react";
 import { memo } from "react";
-import type { ListSortState } from "../app";
-import styles from "./Compositions.module.css";
+import type { ListSortState } from "../App";
+import styles from "../styles/compositions.module.css";
 import type { OnRemoveItem } from "../types/OnRemoveItem";
 import type { Story } from "../types/Story";
 

@@ -1,11 +1,6 @@
-import {
-	ListFilter,
-	ListSortAscending,
-	ListSortDescending,
-	LucideSearch,
-} from "lucide-react";
-import { type ChangeEvent, type ReactNode, useState } from "react";
-import filterIcon from "./sort-icon.module.css";
+import { ListFilter, LucideSearch } from "lucide-react";
+import type { ChangeEvent, ReactNode } from "react";
+import filterIcon from "../styles/sort-icon.module.css";
 
 type SearchAction = (formData: FormData) => void;
 
@@ -23,7 +18,7 @@ export default function Header({ children }: HeaderProp) {
 	console.log("Header renders");
 	return (
 		<header
-			className="dark: sticky flex gap-4 between top-0 z-10 bg-(--bg) px-4 pt-8 pb-6 backdrop-blur-sm"
+			className="dark: between sticky top-0 z-10 flex gap-4 bg-(--bg) px-4 pt-8 pb-6 backdrop-blur-sm"
 			id="site-header"
 		>
 			<h1 className="text-center font-mono font-bold tracking-widest text-balance">
