@@ -9,14 +9,14 @@ import {
 	useRef,
 	useState,
 } from "react";
-import ErrorScreen from "./ErrorScreen";
-import Header, { SearchForm } from "./Header";
-import type { ListSortKey } from "./List";
-import List from "./List";
-import LoadingScreen from "./LoadingScreen";
-import { Main } from "./MainSection";
-import type { Story } from "./src/types/Story";
-import { storiesReducer } from "./storiesReducer";
+import ErrorPage from "./components/error-page";
+import Header, { SearchForm } from "./components/header";
+import type { ListSortKey } from "./components/list";
+import List from "./components/list";
+import LoadingPage from "./components/loadingPage";
+import { Main } from "./components/main-section";
+import { storiesReducer } from "./utilities/storiesReducer";
+import type { Story } from "./types/Story";
 
 const UNIQUE_LOCAL_STORAGE_KEY = (function* getUniqueLocalStorageKey() {
 	yield "global-search";
@@ -40,7 +40,7 @@ export type StoriesAction =
 	| StoriesFetchSuccessAction
 	| StoriesFetchFailureAction
 	| StoriesRemoveAction;
-	
+
 export type ListSortState = { isReversed: boolean; sortKey: ListSortKey };
 
 //* App Component
@@ -81,7 +81,8 @@ export default function App() {
 			} catch (err) {
 				// data fetched failed
 				dispatchStories({ type: `STORIES_FETCH_FAILURE` });
-				if (err instanceof Error) console.log(`Fetch failed ${err.message}`);
+				if (err instanceof Error)
+					console.log(`Fetch failed ${err.message}`);
 			}
 		})();
 	}, [mockURL, url]);
@@ -115,11 +116,14 @@ export default function App() {
 	}
 
 	//* handler for deleting a story
-	const handleRemoveStory = useCallback((item: Story) => {
-		console.log("handleRemoveStory run");
+	const handleRemoveStory = useCallback(
+		(item: Story) => {
+			console.log("handleRemoveStory run");
 
-		dispatchStories({ payload: item, type: "REMOVE_STORY" });
-	}, []);
+			dispatchStories({ payload: item, type: "REMOVE_STORY" });
+		},
+		[dispatchStories],
+	);
 
 	//* search handler
 	function handleSearchForm(event: ChangeEvent<HTMLInputElement>) {
@@ -148,9 +152,9 @@ export default function App() {
 
 	return (
 		<>
-			{stories.isError && <ErrorScreen />}
+			{stories.isError && <ErrorPage />}
 			{stories.isLoading ? (
-				<LoadingScreen />
+				<LoadingPage />
 			) : (
 				!stories.isError && (
 					<div id="App">

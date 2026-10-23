@@ -6,10 +6,10 @@ import {
 	Users2Icon,
 } from "lucide-react";
 import { memo } from "react";
-import type { ListSortState } from "./App";
-import styles from "./compositions.module.css";
-import type { OnRemoveItem } from "./src/types/OnRemoveItem";
-import type { Story } from "./src/types/Story";
+import type { ListSortState } from "../app";
+import styles from "./Compositions.module.css";
+import type { OnRemoveItem } from "../types/OnRemoveItem";
+import type { Story } from "../types/Story";
 
 export type ListSortKey =
 	"none" | "author" | "points" | "num_comments" | "title";

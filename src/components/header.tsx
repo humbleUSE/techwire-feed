@@ -22,7 +22,10 @@ type HeaderProp = {
 export default function Header({ children }: HeaderProp) {
 	console.log("Header renders");
 	return (
-		<header className="sticky top-0 z-10 space-y-4 bg-(--bg)/80 px-4 pt-8 pb-6 backdrop-blur-sm">
+		<header
+			className="dark: sticky flex gap-4 between top-0 z-10 bg-(--bg) px-4 pt-8 pb-6 backdrop-blur-sm"
+			id="site-header"
+		>
 			<h1 className="text-center font-mono font-bold tracking-widest text-balance">
 				Hacker News Stories
 			</h1>
@@ -71,9 +74,9 @@ export function SearchForm({
 			</form>
 			{/* Here!! */}
 
-			<div className="relative h-10 grid place-items-center ">
+			<div className="relative grid h-10 place-items-center">
 				<select
-					className="appearance-none h-full place-self-stretch flex-none border-0 search-filter px-1 open:bg-(--bg) open:ring-0 *:hover:bg-(--bg-subtle) rounded-md pr-10 pl-2"
+					className="search-filter h-full flex-none appearance-none place-self-stretch rounded-md border-0 px-1 pr-10 pl-2 open:bg-(--bg) open:ring-0 *:hover:bg-(--bg-subtle)"
 					name="search-filters"
 					onChange={onSort}
 				>
@@ -86,11 +89,11 @@ export function SearchForm({
 
 				{/* <ListSortAscending
 					className={filterIcon.sortIcon}
-					
+
 				/>
 				<ListSortDescending
 					className={filterIcon.sortIcon}
-					
+
 				/> */}
 				<ListFilter
 					className={filterIcon.sortIcon}

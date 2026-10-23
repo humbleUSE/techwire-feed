@@ -1,6 +1,6 @@
 import { CircleIcon } from "lucide-react";
 
-export default function LoadingScreen() {
+export default function LoadingPage() {
 	return (
 		<div className="loading-screen mx-auto grid h-dvh max-w-7xl place-content-center place-items-center gap-1.5">
 			<div className="loader-icon relative grid size-6 place-items-center">

@@ -1,3 +1,3 @@
-import type { Story } from "./src/types/Story";
+import type { Story } from "./Story";
 
 export type OnRemoveItem = (item: Story) => void;

@@ -1,6 +1,6 @@
 import { GlobeIcon } from "lucide-react";
 
-export default function ErrorScreen() {
+export default function ErrorPage() {
 	return (
 		<div className="error-page relative grid h-dvh place-items-center">
 			<GlobeIcon className="size-full" opacity={0.05} strokeWidth={0.5} />

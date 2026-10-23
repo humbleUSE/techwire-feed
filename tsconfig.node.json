@@ -9,11 +9,13 @@
 		"moduleDetection": "force",
 		"noEmit": true,
 		"noFallthroughCasesInSwitch": true,
+		"noImplicitAny": "true",
 
 		/* Linting */
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
 		"skipLibCheck": true,
+		"strictNullChecks": true,
 		"target": "es2023",
 		"tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
 		"types": ["node"],
