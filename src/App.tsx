@@ -25,7 +25,7 @@ const UNIQUE_LOCAL_STORAGE_KEY = (function* getUniqueLocalStorageKey() {
 //* The API endpoint in use
 // const API_URL = import.meta.env.VITE_API_URL; // vite syntax
 const API_ENDPOINT = "https://hn.algolia.com/api/v1/search?query=";
-const HK_MOCK_SERVER = `http://localhost:3001/hits?title:contains=`;
+// const HK_MOCK_SERVER = `http://localhost:3001/hits?title:contains=`;
 
 type StoriesFetchInitAction = { type: `STORIES_FETCH_INIT` };
 type StoriesFetchSuccessAction = {
@@ -147,7 +147,7 @@ export default function App() {
 	//* form action for submission
 	function searchAction() {
 		setUrl(`${API_ENDPOINT}${searchTerm}`);
-		setMockURL(`${HK_MOCK_SERVER}${searchTerm}`);
+		// setMockURL(`${HK_MOCK_SERVER}${searchTerm}`);
 	}
 
 	return (
