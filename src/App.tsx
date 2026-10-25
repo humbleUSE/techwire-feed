@@ -46,7 +46,6 @@ export type ListSortState = { isReversed: boolean; sortKey: ListSortKey };
 //* App Component
 export default function App() {
 	console.log("App renders");
-
 	//* states
 	const [searchTerm, setSearchTerm] = useStorageState(
 		UNIQUE_LOCAL_STORAGE_KEY,
@@ -76,27 +75,22 @@ export default function App() {
 					// payload: mockServerResult.data,
 					type: `STORIES_FETCH_SUCCESS`,
 				});
-
-				console.log("Data retrieval: Success!");
-			} catch (err) {
+				console.log("Data retrieval: Success!");			} catch (err) {
 				// data fetched failed
 				dispatchStories({ type: `STORIES_FETCH_FAILURE` });
 				if (err instanceof Error)
-					console.log(`Fetch failed ${err.message}`);
-			}
+					console.log(`Fetch failed ${err.message}`);			}
 		})();
 	}, [url]);
 
 	//* useEffect to fetch stories asynchronously form hacker news server
 	useEffect(() => {
-		console.log(`handleFetchStories useEffect run`);
-		handleFetchStories();
+		console.log(`handleFetchStories useEffect run`);		handleFetchStories();
 	}, [handleFetchStories]);
 
 	//* custom Hook
 	function useStorageState(key: string, initialState: string) {
 		console.log("useStorageState useEffect  run");
-
 		const isMounted = useRef(false);
 		const [value, setValue] = useState(
 			localStorage.getItem(key) || initialState,
@@ -105,11 +99,9 @@ export default function App() {
 		useEffect(() => {
 			if (!isMounted.current) {
 				isMounted.current = true;
-				console.log("useStorageState useEffect first render");
-			} else {
+				console.log("useStorageState useEffect first render");			} else {
 				localStorage.setItem(key, value);
-				console.log("useStorageState useEffect run on re-render");
-			}
+				console.log("useStorageState useEffect run on re-render");			}
 		}, [key, value]);
 
 		return [value, setValue] as const;
@@ -119,7 +111,6 @@ export default function App() {
 	const handleRemoveStory = useCallback(
 		(item: Story) => {
 			console.log("handleRemoveStory run");
-
 			dispatchStories({ payload: item, type: "REMOVE_STORY" });
 		},
 		[dispatchStories],
@@ -127,8 +118,7 @@ export default function App() {
 
 	//* search handler
 	function handleSearchForm(event: ChangeEvent<HTMLInputElement>) {
-		console.log("handleSearch run");
-		setSearchTerm(event.target.value);
+		console.log("handleSearch run");		setSearchTerm(event.target.value);
 	}
 
 	//* list sort state

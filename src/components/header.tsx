@@ -15,7 +15,6 @@ type HeaderProp = {
 };
 
 export default function Header({ children }: HeaderProp) {
-	console.log("Header renders");
 	return (
 		<header
 			className="dark: between sticky top-0 z-10 flex gap-4 bg-(--bg) px-4 pt-8 pb-6 backdrop-blur-sm"
@@ -35,8 +34,6 @@ export function SearchForm({
 	searchTerm,
 	onSort,
 }: SearchFormProps) {
-	console.log("Search renders");
-
 	return (
 		<div className="flex items-center justify-center gap-2">
 			<form
@@ -90,13 +87,7 @@ export function SearchForm({
 					className={filterIcon.sortIcon}
 
 				/> */}
-				<ListFilter
-					className={filterIcon.sortIcon}
-					id="filter-icon"
-					onClick={() => {
-						console.log("demclickme");
-					}}
-				/>
+				<ListFilter className={filterIcon.sortIcon} id="filter-icon" />
 			</div>
 		</div>
 	);

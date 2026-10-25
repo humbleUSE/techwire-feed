@@ -28,8 +28,6 @@ type ItemProps = {
 };
 
 export default function List({ list, onRemoveItem, sortOptions }: ListProps) {
-	console.log("List renders");
-
 	function sortOrder() {
 		const order = sortOptions.isReversed ? "desc" : "asc";
 		return [order] as const;
@@ -71,7 +69,6 @@ export default function List({ list, onRemoveItem, sortOptions }: ListProps) {
 }
 
 const Item = memo(function Item({ item, onRemoveItem }: ItemProps) {
-	console.log("Item renders");
 	const { title, url, author, num_comments, points, objectID } = item;
 
 	return (

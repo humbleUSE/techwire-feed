@@ -11,4 +11,3 @@ const db = {
 
 // converts the mapped object back to json format
 fs.writeFileSync("mock-api/db.json", JSON.stringify(db, null, 4));
-console.log("Done!", db.hits.length, "stories saved");
