@@ -1,4 +1,4 @@
-# Hacker News Stories
+# Techwire Feed
 
 [![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -6,11 +6,11 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Axios](https://img.shields.io/badge/Axios-5A29E4?logo=axios&logoColor=white)](https://axios-http.com/)
 
-A polished Hacker News-inspired news reader built with React, TypeScript, and Vite. This project focuses on a clean reading experience, efficient list sorting, and local search, while also demonstrating modern frontend patterns for handling asynchronous data and UI state.
+A polished Hacker News-inspired news reader built with React, TypeScript, and Vite. This project focuses on a clean reading experience, efficient list sorting, and local search, while also demonstrating a modern frontend workflow.
 
 ## Overview
 
-This application presents a searchable list of Hacker News stories with a lightweight, card-based reading interface. It is designed to feel fast and focused, making it easier to scan article titles, inspect metadata like author and points, and quickly remove items from the feed.
+This application presents a searchable list of Hacker News stories with a lightweight, card-based reading interface. It is designed to feel fast and focused, making it easier to scan article titles, authors, and metadata without clutter.
 
 The project is useful as both a learning exercise and a portfolio-ready frontend project, especially for showcasing:
 
@@ -171,7 +171,7 @@ This keeps the logic predictable and easier to reason about while still feeling 
 
 ## Deployment Notes
 
-This project is structured for easy deployment to Vercel, Netlify, or similar static-hosting platforms. For production deployment, the mock API should be replaced with a real backend or a configured production endpoint.
+This project is structured for easy deployment to Vercel, Netlify, or similar static-hosting platforms. For production deployment, the mock API should be replaced with a real backend or a configured production data source.
 
 The current app is intentionally flexible enough to support both local development and a live API-backed version.
 
